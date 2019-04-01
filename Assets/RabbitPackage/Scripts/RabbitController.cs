@@ -14,6 +14,7 @@ public class RabbitController : MonoBehaviour {
     int deathHash = Animator.StringToHash("death");
     int jumpHash = Animator.StringToHash("jump");
     int danceHash = Animator.StringToHash("dance");
+    int jackHash = Animator.StringToHash("jack");
 
     [Header("Carrot")]
     public GameObject carrotPrefab;
@@ -43,41 +44,8 @@ public class RabbitController : MonoBehaviour {
         rabbitFlatMesh = rabbitFlat.GetComponentInChildren<SkinnedMeshRenderer>();
     }
 
-    //  For testing only
-    //  *
     void Update()
     {
-        // if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad1))
-        // {
-        //     SetRabbit("smooth");
-        //     SetMaterial("white");
-        // }
-        // else if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad2))
-        // {
-        //     SetRabbit("smooth");
-        //     SetMaterial("grey");
-        // }
-        // else if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad3))
-        // {
-        //     SetRabbit("smooth");
-        //     SetMaterial("brown");
-        // }
-        // else if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad4))
-        // {
-        //     SetRabbit("lowpoly");
-        //     SetMaterial("white");
-        // }
-        // else if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad5))
-        // {
-        //     SetRabbit("lowpoly");
-        //     SetMaterial("grey");
-        // }
-        // else if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad6))
-        // {
-        //     SetRabbit("lowpoly");
-        //     SetMaterial("brown");
-        // }
-        // else 
         if (Input.GetKeyDown(KeyCode.Keypad1))
             CalmIdle();
         else if (Input.GetKeyDown(KeyCode.Keypad2))
@@ -92,7 +60,7 @@ public class RabbitController : MonoBehaviour {
             Hop();
         else if (Input.GetKeyDown(KeyCode.W))
             Run();
-            //animator.SetFloat("jump");
+        //animator.SetFloat("jump");
         else if (Input.GetKeyDown(KeyCode.Space))
             Jump();
         else if (Input.GetKeyDown(KeyCode.KeypadMinus))
@@ -101,6 +69,11 @@ public class RabbitController : MonoBehaviour {
             DeathInRun();
         else if (Input.GetKeyDown(KeyCode.Keypad0))
             Dance();
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+           // Run();
+            animator.SetBool(jackHash,true);
+        }
     }
 
     #region Actions
