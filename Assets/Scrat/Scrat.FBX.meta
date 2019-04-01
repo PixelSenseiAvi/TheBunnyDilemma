@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 27941dafe9d9acb468497bca58dd81c4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Box03
+    100004: Camera01
+    100006: Camera01.Target
+    100008: CATRigHub01
+    100010: CATRigHub01Gizmo
+    100012: CATRigHub02
+    100014: CATRigHub03
+    100016: CATRigHub03Bone01
+    100018: CATRigHub03Bone01Bone01
+    100020: CATRigHub03Gizmo
+    100022: CATRigLArm1
+    100024: CATRigLArm1Gizmo
+    100026: CATRigLArm2
+    100028: CATRigLArm2Gizmo
+    100030: CATRigLArmCollarbone
+    100032: CATRigLArmDigit11
+    100034: CATRigLArmDigit12
+    100036: CATRigLArmDigit13
+    100038: CATRigLArmDigit21
+    100040: CATRigLArmDigit22
+    100042: CATRigLArmDigit23
+    100044: CATRigLArmDigit31
+    100046: CATRigLArmDigit32
+    100048: CATRigLArmDigit33
+    100050: CATRigLArmPalm
+    100052: CATRigLArmPalmGizmo
+    100054: CATRigLLeg1
+    100056: CATRigLLeg2
+    100058: CATRigLLeg3
+    100060: CATRigLLegAnkle
+    100062: CATRigLLegDigit11
+    100064: CATRigLLegDigit12
+    100066: CATRigLLegPlatform
+    100068: CATRigRArm1
+    100070: CATRigRArm1Gizmo
+    100072: CATRigRArm2
+    100074: CATRigRArm2Gizmo
+    100076: CATRigRArmCollarbone
+    100078: CATRigRArmDigit11
+    100080: CATRigRArmDigit12
+    100082: CATRigRArmDigit13
+    100084: CATRigRArmDigit21
+    100086: CATRigRArmDigit22
+    100088: CATRigRArmDigit23
+    100090: CATRigRArmDigit31
+    100092: CATRigRArmDigit32
+    100094: CATRigRArmDigit33
+    100096: CATRigRArmPalm
+    100098: CATRigRArmPalmGizmo
+    100100: CATRigRLeg1
+    100102: CATRigRLeg2
+    100104: CATRigRLeg3
+    100106: CATRigRLegAnkle
+    100108: CATRigRLegDigit11
+    100110: CATRigRLegDigit12
+    100112: CATRigRLegPlatform
+    100114: CATRigSpine
+    100116: CATRigSpine2
+    100118: CATRigSpine3
+    100120: CATRigSpineCATRigSpine1
+    100122: CATRigTail1
+    100124: CATRigTail1Gizmo
+    100126: CATRigTail2
+    100128: CATRigTail2Gizmo
+    100130: CATRigTail3
+    100132: CATRigTail3Gizmo
+    100134: CATRigTail4
+    100136: CATRigTail4Gizmo
+    100138: CATRigTail5
+    100140: CATRigTail5Gizmo
+    100142: CATRigTail6
+    100144: CATRigTail6Gizmo
+    100146: Character01
+    100148: Cylinder02
+    100150: Direct01
+    100152: Direct01.Target
+    100154: ears
+    100156: eye left
+    100158: eye right
+    100160: eye_close_left
+    100162: eye_close_right
+    100164: eye_half_close_left
+    100166: eye_half_close_right
+    100168: Head03
+    100170: mouth open
+    100172: Point01
+    100174: sad
+    100176: //RootNode
+    100178: scrat head
+    100180: Sky01
+    100182: smile
+    400000: Box01
+    400002: Box03
+    400004: Camera01
+    400006: Camera01.Target
+    400008: CATRigHub01
+    400010: CATRigHub01Gizmo
+    400012: CATRigHub02
+    400014: CATRigHub03
+    400016: CATRigHub03Bone01
+    400018: CATRigHub03Bone01Bone01
+    400020: CATRigHub03Gizmo
+    400022: CATRigLArm1
+    400024: CATRigLArm1Gizmo
+    400026: CATRigLArm2
+    400028: CATRigLArm2Gizmo
+    400030: CATRigLArmCollarbone
+    400032: CATRigLArmDigit11
+    400034: CATRigLArmDigit12
+    400036: CATRigLArmDigit13
+    400038: CATRigLArmDigit21
+    400040: CATRigLArmDigit22
+    400042: CATRigLArmDigit23
+    400044: CATRigLArmDigit31
+    400046: CATRigLArmDigit32
+    400048: CATRigLArmDigit33
+    400050: CATRigLArmPalm
+    400052: CATRigLArmPalmGizmo
+    400054: CATRigLLeg1
+    400056: CATRigLLeg2
+    400058: CATRigLLeg3
+    400060: CATRigLLegAnkle
+    400062: CATRigLLegDigit11
+    400064: CATRigLLegDigit12
+    400066: CATRigLLegPlatform
+    400068: CATRigRArm1
+    400070: CATRigRArm1Gizmo
+    400072: CATRigRArm2
+    400074: CATRigRArm2Gizmo
+    400076: CATRigRArmCollarbone
+    400078: CATRigRArmDigit11
+    400080: CATRigRArmDigit12
+    400082: CATRigRArmDigit13
+    400084: CATRigRArmDigit21
+    400086: CATRigRArmDigit22
+    400088: CATRigRArmDigit23
+    400090: CATRigRArmDigit31
+    400092: CATRigRArmDigit32
+    400094: CATRigRArmDigit33
+    400096: CATRigRArmPalm
+    400098: CATRigRArmPalmGizmo
+    400100: CATRigRLeg1
+    400102: CATRigRLeg2
+    400104: CATRigRLeg3
+    400106: CATRigRLegAnkle
+    400108: CATRigRLegDigit11
+    400110: CATRigRLegDigit12
+    400112: CATRigRLegPlatform
+    400114: CATRigSpine
+    400116: CATRigSpine2
+    400118: CATRigSpine3
+    400120: CATRigSpineCATRigSpine1
+    400122: CATRigTail1
+    400124: CATRigTail1Gizmo
+    400126: CATRigTail2
+    400128: CATRigTail2Gizmo
+    400130: CATRigTail3
+    400132: CATRigTail3Gizmo
+    400134: CATRigTail4
+    400136: CATRigTail4Gizmo
+    400138: CATRigTail5
+    400140: CATRigTail5Gizmo
+    400142: CATRigTail6
+    400144: CATRigTail6Gizmo
+    400146: Character01
+    400148: Cylinder02
+    400150: Direct01
+    400152: Direct01.Target
+    400154: ears
+    400156: eye left
+    400158: eye right
+    400160: eye_close_left
+    400162: eye_close_right
+    400164: eye_half_close_left
+    400166: eye_half_close_right
+    400168: Head03
+    400170: mouth open
+    400172: Point01
+    400174: sad
+    400176: //RootNode
+    400178: scrat head
+    400180: Sky01
+    400182: smile
+    2000000: Camera01
+    2100000: Standard_2
+    2100002: Standard_4
+    2100004: Standard_5
+    2100006: No Name
+    2100008: Standard_1
+    2300000: Box01
+    2300002: Box03
+    2300004: CATRigHub01Gizmo
+    2300006: CATRigHub03Gizmo
+    2300008: CATRigLArm1Gizmo
+    2300010: CATRigLArm2Gizmo
+    2300012: CATRigLArmPalmGizmo
+    2300014: CATRigRArm1Gizmo
+    2300016: CATRigRArm2Gizmo
+    2300018: CATRigRArmPalmGizmo
+    2300020: CATRigTail1Gizmo
+    2300022: CATRigTail2Gizmo
+    2300024: CATRigTail3Gizmo
+    2300026: CATRigTail4Gizmo
+    2300028: CATRigTail5Gizmo
+    2300030: CATRigTail6Gizmo
+    2300032: Cylinder02
+    2300034: ears
+    2300036: eye left
+    2300038: eye right
+    2300040: eye_close_left
+    2300042: eye_close_right
+    2300044: eye_half_close_left
+    2300046: eye_half_close_right
+    2300048: Head03
+    2300050: mouth open
+    2300052: sad
+    2300054: smile
+    3300000: Box01
+    3300002: Box03
+    3300004: CATRigHub01Gizmo
+    3300006: CATRigHub03Gizmo
+    3300008: CATRigLArm1Gizmo
+    3300010: CATRigLArm2Gizmo
+    3300012: CATRigLArmPalmGizmo
+    3300014: CATRigRArm1Gizmo
+    3300016: CATRigRArm2Gizmo
+    3300018: CATRigRArmPalmGizmo
+    3300020: CATRigTail1Gizmo
+    3300022: CATRigTail2Gizmo
+    3300024: CATRigTail3Gizmo
+    3300026: CATRigTail4Gizmo
+    3300028: CATRigTail5Gizmo
+    3300030: CATRigTail6Gizmo
+    3300032: Cylinder02
+    3300034: ears
+    3300036: eye left
+    3300038: eye right
+    3300040: eye_close_left
+    3300042: eye_close_right
+    3300044: eye_half_close_left
+    3300046: eye_half_close_right
+    3300048: Head03
+    3300050: mouth open
+    3300052: sad
+    3300054: smile
+    4300000: Box03
+    4300002: Cylinder02
+    4300004: eye left
+    4300006: eye right
+    4300008: CATRigLArm1Gizmo
+    4300010: CATRigLArm2Gizmo
+    4300012: CATRigLArmPalmGizmo
+    4300014: CATRigRArm1Gizmo
+    4300016: CATRigRArm2Gizmo
+    4300018: CATRigRArmPalmGizmo
+    4300020: CATRigTail1Gizmo
+    4300022: CATRigHub03Gizmo
+    4300024: CATRigTail2Gizmo
+    4300026: CATRigTail3Gizmo
+    4300028: CATRigHub01Gizmo
+    4300030: scrat head
+    4300032: eye_half_close_left
+    4300034: mouth open
+    4300036: Head03
+    4300038: eye_half_close_right
+    4300040: ears
+    4300042: smile
+    4300044: sad
+    4300046: eye_close_right
+    4300048: eye_close_left
+    4300050: CATRigTail4Gizmo
+    4300052: CATRigTail5Gizmo
+    4300054: CATRigTail6Gizmo
+    4300056: Box01
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Direct01
+    10800002: Sky01
+    13700000: scrat head
+    6000828045688606266: Camera01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
