@@ -71,7 +71,6 @@ public class RabbitController : MonoBehaviour {
             Dance();
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-           // Run();
             animator.SetBool(jackHash,true);
         }
     }
