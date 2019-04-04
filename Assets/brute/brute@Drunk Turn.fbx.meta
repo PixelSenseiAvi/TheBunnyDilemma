@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0c6de945e09eea94680ce307cf24bbc0
+guid: eb955fb21862b124da474b0bfbf1017a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -177,7 +177,7 @@ ModelImporter:
     4300012: MaleBruteA_Eyelashes
     4300014: MaleBruteA_Body
     4300016: MaleBruteA_Earrings
-    7400000: Zombie Attack
+    7400000: mixamo.com
     9500000: //RootNode
     13700000: BattleAxe_GEO
     13700002: MaleBruteA_Body
@@ -188,7 +188,52 @@ ModelImporter:
     13700012: MaleBruteA_Hair
     13700014: MaleBruteA_Moustaches
     13700016: MaleBruteA_Shoes
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_MAT2
+    second: {fileID: 2100000, guid: ecf3258b7f6c2a0449567090ee7161a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeSpec_MAT2
+    second: {fileID: 2100000, guid: 8ff619b3bce57f34e866487bc3d63263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lashes_MAT2
+    second: {fileID: 2100000, guid: b2555d6e128c25040a9e39c5ed367e0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaleBruteA_Bottom3
+    second: {fileID: 2100000, guid: f4a91a56dbea61142b06b33eeb6e71a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaleBruteA_Hair4
+    second: {fileID: 2100000, guid: 4200f5125051d0144b9100ef4c7dcc2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaleBruteA_Moustache3
+    second: {fileID: 2100000, guid: d0e65ec37c70eaa4ba6ff6b50ea5a39d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaleBruteA_Shoes4
+    second: {fileID: 2100000, guid: b075c8c11633d4847bfada50be6f9c54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn5
+    second: {fileID: 2100000, guid: 91035793a80b40b44b367cdb5fa3af2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: a1ebcd8589446c94f92056f9e6cee3ac, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -207,7 +252,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 1
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -215,35 +260,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Zombie Attack
-      takeName: mixamo.com
-      firstFrame: 0
-      lastFrame: 276
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
