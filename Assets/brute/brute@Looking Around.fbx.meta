@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a53ed56be964e64e984967e5e00476d
+guid: 82c92554126d97c43a69d47676d80486
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -177,7 +177,7 @@ ModelImporter:
     4300012: MaleBruteA_Eyelashes
     4300014: MaleBruteA_Body
     4300016: MaleBruteA_Earrings
-    7400000: Running (1)
+    7400000: Looking Around
     9500000: //RootNode
     13700000: BattleAxe_GEO
     13700002: MaleBruteA_Body
@@ -217,10 +217,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Running (1)
+      name: Looking Around
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 76
+      lastFrame: 170
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -229,9 +229,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
