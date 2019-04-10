@@ -72,6 +72,36 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: ac97d567a18ad334d88ee959f79b765d
     defaultValue: {fileID: 0}
+--- !u!114 &114393615784029736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  VirtualCamera:
+    exposedName: 25250461e92f32c438b8ecaa30154327
+    defaultValue: {fileID: 0}
+--- !u!114 &114483705606429962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  VirtualCamera:
+    exposedName: b5aa3937a81377741afb0c8b7a8c95cb
+    defaultValue: {fileID: 0}
 --- !u!114 &114487325758208586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -94,13 +124,13 @@ MonoBehaviour:
   - m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 114112354059272644}
-    m_Duration: 5
+    m_Duration: 5.816666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114487325758208586}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.36666666666666625
+    m_BlendOutDuration: 0.7166666666666668
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -127,7 +157,25 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -140,17 +188,17 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam1
+    m_DisplayName: front cam
     m_Version: 1
-  - m_Start: 4.633333333333334
+  - m_Start: 5.1
     m_ClipIn: 0
-    m_Asset: {fileID: 114938790367856304}
-    m_Duration: 5
+    m_Asset: {fileID: 114802717157783498}
+    m_Duration: 3.4333333333333336
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114487325758208586}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.36666666666666625
+    m_BlendInDuration: 0.7166666666666668
     m_BlendOutDuration: 0.5333333333333332
     m_MixInCurve:
       serializedVersion: 2
@@ -209,18 +257,18 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam2
+    m_DisplayName: rabbit top cam
     m_Version: 1
-  - m_Start: 9.1
+  - m_Start: 8
     m_ClipIn: 0
-    m_Asset: {fileID: 114923073915089730}
-    m_Duration: 5
+    m_Asset: {fileID: 114667310246269362}
+    m_Duration: 4.833333333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114487325758208586}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 0.5333333333333332
-    m_BlendOutDuration: 0.8166666666666664
+    m_BlendOutDuration: 0.5
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -278,17 +326,224 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam3
+    m_DisplayName: back cam
     m_Version: 1
-  - m_Start: 13.283333333333333
+  - m_Start: 12.333333333333334
     m_ClipIn: 0
-    m_Asset: {fileID: 114599147410823056}
-    m_Duration: 5.816666666666666
+    m_Asset: {fileID: 114483705606429962}
+    m_Duration: 6.533333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114487325758208586}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.8166666666666664
+    m_BlendInDuration: 0.5
+    m_BlendOutDuration: 0.46666666666666856
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: right cam
+    m_Version: 1
+  - m_Start: 18.4
+    m_ClipIn: 0
+    m_Asset: {fileID: 114856160554698564}
+    m_Duration: 8.716666666666669
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114487325758208586}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.46666666666666856
+    m_BlendOutDuration: 0.46666666666666856
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: rabbit side cam
+    m_Version: 1
+  - m_Start: 26.65
+    m_ClipIn: 0
+    m_Asset: {fileID: 114663952784331090}
+    m_Duration: 4.350000000000001
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114487325758208586}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.46666666666666856
+    m_BlendOutDuration: 0.3000000000000007
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: front cam
+    m_Version: 1
+  - m_Start: 30.7
+    m_ClipIn: 0
+    m_Asset: {fileID: 114393615784029736}
+    m_Duration: 5.983333333333331
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114487325758208586}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.3000000000000007
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -347,10 +602,10 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam4
+    m_DisplayName: rabbit side cam
     m_Version: 1
   m_Version: 2
---- !u!114 &114599147410823056
+--- !u!114 &114663952784331090
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -363,9 +618,9 @@ MonoBehaviour:
   m_Name: CinemachineShot
   m_EditorClassIdentifier: 
   VirtualCamera:
-    exposedName: 1fcef39ecb60976468f06beea7e7b453
+    exposedName: 1b81799a8bd09fc43b62bbaf638ce15f
     defaultValue: {fileID: 0}
---- !u!114 &114923073915089730
+--- !u!114 &114667310246269362
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -378,9 +633,9 @@ MonoBehaviour:
   m_Name: CinemachineShot
   m_EditorClassIdentifier: 
   VirtualCamera:
-    exposedName: 6f40c30fd4d847e488c9c5cd8e43ca08
+    exposedName: 6b6386efb277c1c40a61fdd7d48981da
     defaultValue: {fileID: 0}
---- !u!114 &114938790367856304
+--- !u!114 &114802717157783498
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,5 +648,20 @@ MonoBehaviour:
   m_Name: CinemachineShot
   m_EditorClassIdentifier: 
   VirtualCamera:
-    exposedName: 130c74ffafdbc404f9d67783de206497
+    exposedName: cffd508294e817b4d90a912a435de30f
+    defaultValue: {fileID: 0}
+--- !u!114 &114856160554698564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  VirtualCamera:
+    exposedName: 9dea77f3cb6a8d34c8c595db4b19f537
     defaultValue: {fileID: 0}
