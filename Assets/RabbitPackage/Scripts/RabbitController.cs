@@ -46,32 +46,15 @@ public class RabbitController : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad1))
-            CalmIdle();
-        else if (Input.GetKeyDown(KeyCode.Keypad2))
-            NervousIdle();
-        else if (Input.GetKeyDown(KeyCode.Keypad3))
-            Watch();
-        else if (Input.GetKeyDown(KeyCode.Keypad4))
-            EatCarrot();
-        else if (Input.GetKeyDown(KeyCode.Keypad5))
-            EatGrass();
-        else if (Input.GetKeyDown(KeyCode.Keypad6))
-            Hop();
-        else if (Input.GetKeyDown(KeyCode.W))
-            Run();
+
+        if (Input.GetKeyDown(KeyCode.W))
+        { Run(); }
         //animator.SetFloat("jump");
         else if (Input.GetKeyDown(KeyCode.Space))
-            Jump();
-        else if (Input.GetKeyDown(KeyCode.KeypadMinus))
-            DeathInSit();
-        else if (Input.GetKeyDown(KeyCode.KeypadPlus))
-            DeathInRun();
-        else if (Input.GetKeyDown(KeyCode.Keypad0))
-            Dance();
+        { Dance(); }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            animator.SetBool(jackHash,true);
+            animator.SetBool(jackHash, true);
         }
     }
 
