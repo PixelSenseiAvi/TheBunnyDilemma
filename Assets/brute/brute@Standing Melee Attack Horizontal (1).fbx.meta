@@ -219,7 +219,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Standing Melee Attack Horizontal (1)
       takeName: mixamo.com
-      firstFrame: 0
+      firstFrame: 14
       lastFrame: 190
       wrapMode: 0
       orientationOffsetY: 0
