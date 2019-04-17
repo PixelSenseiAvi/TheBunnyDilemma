@@ -8,6 +8,8 @@ public class Pause : MonoBehaviour
 {
     public bool IsPaused;
     public float playedTime;
+    private int count;
+
 
    // Start is called before the first frame update
     void Start()
@@ -15,6 +17,7 @@ public class Pause : MonoBehaviour
         //pd = brute.GetComponent<PlayableDirector>();
         IsPaused = false;
         playedTime = 0.0f;
+        count = 0;
     }
 
     // Update is called once per frame
@@ -22,9 +25,13 @@ public class Pause : MonoBehaviour
     {
         playedTime += Time.deltaTime;
         //playable.GetGraph().GetRootPlayable(0).GetTime(). 
-        if (playedTime >= 29.16f)
+        if (playedTime >= 29.0f && playedTime <= 31.4f)
         {
-            IsPaused = true;    
+            count += 1;
+
+            if (count == 1)
+            { IsPaused = true; }
+
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && IsPaused)
