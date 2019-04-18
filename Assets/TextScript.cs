@@ -25,8 +25,10 @@ public class TextScript : MonoBehaviour
 
         }
         else if(playedTime >= 32.5f)
-        { Destroy(textObject);
+        {
+            Destroy(textObject);
             //GameObject.Find("Text").GetComponent<TextMesh>(); 
+            //(textObject.activeSelf ? Destroy(textObject) : null); 
         }
     }
 }
