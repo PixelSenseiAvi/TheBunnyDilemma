@@ -27,7 +27,7 @@ public class Pause : MonoBehaviour
         //playable.GetGraph().GetRootPlayable(0).GetTime(). 
         if (playedTime >= 29.0f && playedTime <= 31.4f)
         {
-            count += 1;
+            count++;
 
             if (count == 1)
             { IsPaused = true; }
